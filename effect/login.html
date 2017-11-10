@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Slide in Login Screen</title>
-<link href="../_css/site.css" rel="stylesheet">
+<link href="site.css" rel="stylesheet">
 <style>
 #login {
 	width: 300px;
@@ -61,10 +61,14 @@
 	padding-right: 15px;
 }
 </style>
-<script src="../_js/jquery.min.js"></script>
+<script src="jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-
+	$('#open').click(function(evt) {
+		evt.preventDefault();
+		$('#login form').slideToggle(300);
+		$(this).toggleClass('close');
+	}); // end click
 }); // end ready
 </script>
 </head>
