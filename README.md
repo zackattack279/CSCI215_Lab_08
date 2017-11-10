@@ -1,6 +1,25 @@
 # Lab_08
 jQuery Effects and Animation
 
+## Part 1, One-Page FAQ ##
+* When a question is clicked, the corresponding answer will appear.
+* When a question whose answer is visible is clicked, then the answer should disappear.
+* Read and follow instructions in faqLab.pdf.
+
+## Part 2, Login Slider ##
+* Select the paragraph with the "Login" message in it.
+* Attach a _click_ event handler to that paragraph.
+* Toggle the display of the form _on_ and _off_.
+* Read and follow the instructions in sliderLab.pdf.
+
+## Part 3, Animated Dashboard ##
+* Select the \<div\> tag.
+* Attach a _hover_ event.
+* Add the animate function for the _mouseEnter_ event.
+* Add another animate function for the _mouseLeave_ event.
+* Read and follow the instructions in animateLab.pdf.
+
+## NOTES: ##
 ## jQuery Effects ##
 Making elements on a web page appear and disappear is a common JavaScript task such as drop-down navigation menus, pop-up tooltips, and automated slideshows. jQuery supplies a few functions to make this easier.
 
